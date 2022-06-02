@@ -1,4 +1,3 @@
-_____
 
 ## **Mikalai Balotska**
 _____
@@ -22,16 +21,21 @@ ____
 * JavaScript
 * Git (remote service GitHub)
 * Visual Studio Code 
-* Windows OS
+* Windows
 ___
 
 ## Code example
->function multiply (a, b) {
+```
+function multiply (a, b) {
 return a * b
 }
+```
 ___
 
 ## Experience
-* [CV](https://dragonnb357.github.io/rsschool-cv/cv)
+[CV](https://dragonnb357.github.io/rsschool-cv/cv)
+
+_____
+
 ## English
 **A2** I try to learn English in every possible way. I use Duolingo application in smartphone and I use translate a lot.
