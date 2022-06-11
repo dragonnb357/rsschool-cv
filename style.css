@@ -1,0 +1,160 @@
+
+@font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/Roboto-Regular.ttf");
+   }
+/*@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoThin.ttf");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoRegular.ttf");
+    font-weight: 300;
+  }*/
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  border {
+      border: 1px solid red;
+  }
+
+  header { background-color: grey;
+
+  }
+
+   body {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .main {
+    margin-bottom: auto;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .section {
+    width: calc(50% - 25px);
+    padding: 20px;
+    border-bottom: 1px solid #829985;
+    padding-bottom: 30px;
+  }
+
+  .section-english,
+  .section-courses {
+      border-bottom: none;
+  }
+
+  .section-profile {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      /*padding: 50px 40px 30 px;*/
+  }
+  .section-profile-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+  .section-profile-logo {
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    }
+
+    .nav-link {
+        padding: 0 20px;
+        line-height: 50px;
+        transition: .3s;
+    }
+
+    .section-item a {
+        color: #829985;
+        text-decoration: none;  
+        transition: color 0.5s;
+    }
+      .section-item a:hover {
+        color: #4d2323;
+    }
+
+    @media (max-width: 768px) {
+        .section {
+          width: 100%;
+        }
+      }
+    
+    .footer {
+        color: aliceblue;
+        background-color: dimgray;
+        padding: 30px;
+        display: flex;      
+        
+        align-items: center;
+        margin: 0 0;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex: auto;
+
+        
+    }
+
+    .git-link {
+        color: aliceblue;
+        text-decoration: none;
+        line-height: 45px; 
+    }
+
+    /*.rss {
+
+        flex-direction: column;
+        justify-content: space-between;
+    }*/
+      
+     /* .rss {
+        width: 200px;
+        height: 50px;
+        background-image: url("assets/img/rs_school_js_fav.ico");
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+      }*/
+      
