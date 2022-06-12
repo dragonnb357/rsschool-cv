@@ -1,18 +1,8 @@
 
 @font-face {
     font-family: Roboto;
-     src: url("assets/fonts/Roboto-Regular.ttf");
+     src: url("/rsschool-cv/assets/font/Roboto-Regular.ttf");
    }
-/*@font-face {
-    font-family: 'Roboto';
-    src: url("assets/fonts/RobotoThin.ttf");
-    font-weight: 100;
-  }
-  @font-face {
-    font-family: 'Roboto';
-    src: url("assets/fonts/RobotoRegular.ttf");
-    font-weight: 300;
-  }*/
 
   * {
     box-sizing: border-box;
@@ -22,16 +12,13 @@
     scroll-behavior: smooth; 
   }
 
-  border {
-      border: 1px solid red;
-  }
-
+  
   header { background-color: grey;
-
+    
   }
 
    body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     display: flex;
     margin: 0;
@@ -56,6 +43,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
   }
   
   .section {
@@ -74,43 +62,91 @@
       width: 100%;
       display: flex;
       justify-content: space-around;
-      /*padding: 50px 40px 30 px;*/
-  }
-  .section-profile-title {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      text-transform: uppercase;
-  }
+      
+      padding-bottom: 40px;
+  border-bottom: 10px solid #9ba19c;
+    }
+.section-h1 {
+    padding-bottom: 30px;
+    border-bottom: 3px solid #b2b8b3;
+} 
+     
+    .section-profile-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
 
   .section-profile-logo {
     width: 200px;
     height: 200px;
-
-  }
+    border-radius: 50%;
+    margin-top: 40px;
+ }
 
   .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    }
+}
 
-    .nav-link {
-        padding: 0 20px;
-        line-height: 50px;
-        transition: .3s;
-    }
+.nav-link {
+    padding: 0 30px;
+    line-height: 50px;
+    transition: .3s;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+}
 
-    .section-item a {
-        color: #829985;
+    .section-list {
+        color: #9b9ca0;
         text-decoration: none;  
         transition: color 0.5s;
+        cursor: pointer;
+        
     }
-      .section-item a:hover {
-        color: #4d2323;
+    
+    .section-list:hover {
+        color: rgb(12, 12, 15);
     }
+
+    .style-type-location {
+        list-style-type: none;
+    }
+    
+    .style-type {
+        list-style-type: none;
+    }
+    .style-type::before {
+        content: "\1F582";
+    }
+    
+    .telegram {
+        list-style-type: none;
+    }
+    .telegram::before {
+       
+    } 
+
+    .style-github {
+        list-style-type: none;
+    }
+   
+    .style-type-phone {
+        list-style-type: none;
+    }
+    .style-type-phone::before {
+        
+        content: "\260F";
+    } 
+    
 
     @media (max-width: 768px) {
         .section {
@@ -133,28 +169,19 @@
         flex-wrap: wrap;
         justify-content: space-between;
         flex: auto;
-
-        
     }
 
     .git-link {
         color: aliceblue;
         text-decoration: none;
         line-height: 45px; 
+        text-decoration: none;  
+        transition: color 0.5s;
+        cursor: pointer;
     }
 
-    /*.rss {
+    .git-link:hover {
+        color: #9ba19c;
+    }
 
-        flex-direction: column;
-        justify-content: space-between;
-    }*/
-      
-     /* .rss {
-        width: 200px;
-        height: 50px;
-        background-image: url("assets/img/rs_school_js_fav.ico");
-        background-size: contain;
-        background-repeat: no-repeat;
-        
-      }*/
-      
+         
